@@ -1,0 +1,70 @@
+# =========================
+# OS / system files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# R / RStudio
+# =========================
+.Rhistory
+.Rapp.history
+.RData
+.RDataTmp
+.Ruserdata
+.Rproj.user/
+.Renviron
+
+# =========================
+# R package / build
+# =========================
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+
+# =========================
+# R Markdown / knitr
+# =========================
+*_cache/
+/cache/
+*.utf8.md
+*.knit.md
+
+# =========================
+# Outputs (figures, tables, reports)
+# =========================
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.html
+
+# =========================
+# Data (optional — uncomment if needed)
+# =========================
+# data/
+# *.csv
+# *.rds
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# Auth / tokens
+# =========================
+.httr-oauth
+
+# =========================
+# pkgdown / docs
+# =========================
+docs/
+
+# =========================
+# Deployment
+# =========================
+rsconnect/
